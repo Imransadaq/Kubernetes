@@ -1,11 +1,11 @@
 kind: RoleBinding
-apiVersion: rbac.authorization.k8s.io/v1beta1
+apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: developer-role-binding
   namespace: development
 subjects:
 - kind: User
-  name: jane
+  name: nag
   apiGroup: ""
 roleRef:
   kind: Role

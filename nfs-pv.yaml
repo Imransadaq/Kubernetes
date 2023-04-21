@@ -9,6 +9,6 @@ spec:
   - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   nfs:
-    path: /opt/sfw2
+    path: /opt/sfw
     server: 74.235.160.136
     readOnly: false

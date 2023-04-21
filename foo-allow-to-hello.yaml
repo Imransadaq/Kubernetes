@@ -14,7 +14,7 @@ spec:
         matchLabels:
           app: hello
   - ports:
-    - port: 53
+    - port: 8080
       protocol: TCP
-    - port: 53
+    - port: 8080
       protocol: UDP

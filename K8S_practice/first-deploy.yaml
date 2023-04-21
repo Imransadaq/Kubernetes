@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
-  labels:
-    app: nginx
+   name: first-deployment
+   labels:
+      app: nginx
 spec:
   replicas: 2
   selector:
@@ -19,5 +19,3 @@ spec:
         image: nginx:1.12
         ports:
         - containerPort: 80
-      nodeSelector:
-        disktype: ssd
